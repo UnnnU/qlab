@@ -1,0 +1,237 @@
+,name,name_en,ISO3166_1_2,STANAG_1059,CID
+0,阿鲁巴,Aruba,AW,ABW,0
+1,阿富汗,Afghanistan,AF,AFG,1
+2,安哥拉,Angola,AO,AGO,2
+3,安圭拉,Anguilla,AI,AIA,3
+4,阿尔巴尼亚,Albania,AL,ALB,4
+5,安道尔,Andorra,AD,AND,5
+6,库拉索（荷）,Curacao (neth.),CW,ANT,6
+7,阿联酋,United Arab Emirates,AE,ARE,7
+8,阿根廷,Argentina,AR,ARG,8
+9,亚美尼亚,Armenia,AM,ARM,9
+10,美属萨摩亚,American Samoa,AS,ASM,10
+11,南极洲,Antarctica,AQ,ATA,11
+12,法属南部领地,French Southern Territories,TF,ATF,12
+13,安提瓜和巴布达,Antigua and Barbuda,AG,ATG,13
+14,澳大利亚,Australia,AU,AUS,14
+15,奥地利,Austria,AT,AUT,15
+16,阿塞拜疆,Azerbaijan,AZ,AZE,16
+17,布隆迪,Burundi,BI,BDI,17
+18,比利时,Belgium,BE,BEL,18
+19,贝宁,Benin,BJ,BEN,19
+20,布基纳法索,Burkina Faso,BF,BFA,20
+21,孟加拉国,Bangladesh,BD,BGD,21
+22,保加利亚,Bulgaria,BG,BGR,22
+23,巴林,Bahrain,BH,BHR,23
+24,巴哈马,Bahamas,BS,BHS,24
+25,波黑,Bosnia and Herzegovina,BA,BIH,25
+26,白俄罗斯,Belarus,BY,BLR,26
+27,伯利兹,Belize,BZ,BLZ,27
+28,百慕大,Bermuda,BM,BMU,28
+29,玻利维亚,Bolivia,BO,BOL,29
+30,巴西,Brazil,BR,BRA,30
+31,巴巴多斯,Barbados,BB,BRB,31
+32,文莱,Brunei,BN,BRN,32
+33,不丹,Bhutan,BT,BTN,33
+34,布维岛,Bouvet Island,BV,BVT,34
+35,博茨瓦纳,Botswana,BW,BWA,35
+36,中非,Central Africa,CF,CAF,36
+37,加拿大,Canada,CA,CAN,37
+38,科科斯群岛（澳）,Cocos Islands (aus.),CC,CCK,38
+39,瑞士,Switzerland,CH,CHE,39
+40,智利,Chile,CL,CHL,40
+41,中国,China,CN,CHN,41
+42,科特迪瓦,Cote D’ivoire,CI,CIV,42
+43,喀麦隆,Cameroon,CM,CMR,43
+44,刚果民主共和国,D.r.congo,CD,COD,44
+45,刚果,Congo,CG,COG,45
+46,库克群岛,Cook Islands,CK,COK,46
+47,哥伦比亚,Colombia,CO,COL,47
+48,科摩罗,Comoros,KM,COM,48
+49,佛得角,Cape Verde,CV,CPV,49
+50,哥斯达黎加,Costa Rica,CR,CRI,50
+51,古巴,Cuba,CU,CUB,51
+52,圣诞岛（澳）,Christmas Island (aus.),CX,CXR,52
+53,开曼群岛,Cayman Islands,KY,CYM,53
+54,塞浦路斯,Cyprus,CY,CYP,54
+55,捷克,Czech Republic,CZ,CZE,55
+56,德国,Germany,DE,DEU,56
+57,吉布提,Djibouti,DJ,DJI,57
+58,多米尼克,Dominica,DM,DMA,58
+59,丹麦,Denmark,DK,DNK,59
+60,多米尼加,Dominican Republic,DO,DOM,60
+61,阿尔及利亚,Algeria,DZ,DZA,61
+62,厄瓜多尔,Ecuador,EC,ECU,62
+63,埃及,Egypt,EG,EGY,63
+64,厄立特里亚,Eritrea,ER,ERI,64
+65,西撒哈拉,Western Sahara,EH,ESH,65
+66,西班牙,Spain,ES,ESP,66
+67,爱沙尼亚,Estonia,EE,EST,67
+68,埃塞俄比亚,Ethiopia,ET,ETH,68
+69,芬兰,Finland,FI,FIN,69
+70,斐济,Fiji,FJ,FJI,70
+71,马尔维纳斯群岛,Is.Malvinas,FK,FLK,71
+72,克利珀顿岛（法）,Clipperton Island (france),FR,FRA,72
+73,法罗群岛,Faroe Islands,FO,FRO,73
+74,密克罗尼西亚联邦,Micronesia,FM,FSM,74
+75,加蓬,Gabon,GA,GAB,75
+76,英国,United Kingdom,GB,GBR,76
+77,格鲁吉亚,Georgia,GE,GEO,77
+78,加纳,Ghana,GH,GHA,78
+79,直布罗陀,Gibraltar,GI,GIB,79
+80,几内亚,Guinea,GN,GIN,80
+81,瓜德罗普,Guadeloupe,GP,GLP,81
+82,冈比亚,Gambia,GM,GMB,82
+83,几内亚比绍,Guinea-Bissau,GW,GNB,83
+84,赤道几内亚,Equatorial Guinea,GQ,GNQ,84
+85,希腊,Greece,GR,GRC,85
+86,格林纳达,Grenada,GD,GRD,86
+87,格陵兰（丹）,Greenland (den.),GL,GRL,87
+88,危地马拉,Guatemala,GT,GTM,88
+89,法属圭亚那,French Guiana,GF,GUF,89
+90,圭亚那,Guyana,GY,GUY,90
+91,赫德岛和麦克唐纳岛,Heard Island and Mcdonald Islands,HM,HMD,91
+92,洪都拉斯,Honduras,HN,HND,92
+93,克罗地亚,Croatia,HR,HRV,93
+94,海地,Haiti,HT,HTI,94
+95,匈牙利,Hungary,HU,HUN,95
+96,印度尼西亚,Indonesia,ID,IDN,96
+97,印度,India,IN,IND,97
+98,英属印度洋领地,British Indian Ocean Territory,IO,IOT,98
+99,爱尔兰,Ireland,IE,IRL,99
+100,伊朗,Iran,IR,IRN,100
+101,伊拉克,Iraq,IQ,IRQ,101
+102,冰岛,Iceland,IS,ISL,102
+103,以色列,Israel,IL,ISR,103
+104,意大利,Italy,IT,ITA,104
+105,牙买加,Jamaica,JM,JAM,105
+106,约旦,Jordan,JO,JOR,106
+107,日本,Japan,JP,JPN,107
+108,哈萨克斯坦,Kazakhstan,KZ,KAZ,108
+109,肯尼亚,Kenya,KE,KEN,109
+110,吉尔吉斯斯坦,Kyrgyzstan,KG,KGZ,110
+111,柬埔寨,Cambodia,KH,KHM,111
+112,基里巴斯,Kiribati,KI,KIR,112
+113,圣基茨和尼维斯,St.Kitts and Nevis,KN,KNA,113
+114,韩国,Korea,KR,KOR,114
+115,科威特,Kuwait,KW,KWT,115
+116,老挝,Laos,LA,LAO,116
+117,黎巴嫩,Lebanon,LB,LBN,117
+118,利比里亚,Liberia,LR,LBR,118
+119,利比亚,Libya,LY,LBY,119
+120,圣卢西亚,St. Lucia,LC,LCA,120
+121,列支敦士登,Liechtenstein,LI,LIE,121
+122,斯里兰卡,Srilanka,LK,LKA,122
+123,莱索托,Lesotho,LS,LSO,123
+124,立陶宛,Lithuania,LT,LTU,124
+125,卢森堡,Letzebuerg,LU,LUX,125
+126,拉脱维亚,Latvia,LV,LVA,126
+127,摩洛哥,Morocco,MA,MAR,127
+128,摩纳哥,Monaco,MC,MCO,128
+129,摩尔多瓦,Moldova,MD,MDA,129
+130,马达加斯加,Madagascar,MG,MDG,130
+131,马尔代夫,Maldives,MV,MDV,131
+132,墨西哥,Mexico,MX,MEX,132
+133,马绍尔群岛,Marshall Islands,MH,MHL,133
+134,前南马其顿,Macedonia MK ,MK,MKD,134
+135,马里,Mali,ML,MLI,135
+136,马耳他,Malta,MT,MLT,136
+137,缅甸,Myanmar,MM,MMR,137
+138,黑山共和国,Montenegro,ME,MNE,138
+139,蒙古,Mongolia,MN,MNG,139
+140,北马里亚纳,Northern Mariana Islands,MP,MNP,140
+141,莫桑比克,Mozambique,MZ,MOZ,141
+142,毛里塔尼亚,Mauritania,MR,MRT,142
+143,蒙特塞拉特,Montserrat,MS,MSR,143
+144,马提尼克,Martinique,MQ,MTQ,144
+145,毛里求斯,Mauritius,MU,MUS,145
+146,马拉维,Malawi,MW,MWI,146
+147,马来西亚,Malaysia,MY,MYS,147
+148,马约特,Mayotte,YT,MYT,148
+149,纳米比亚,Namibia,NA,NAM,149
+150,新喀里多尼亚,New Caledonia,NC,NCL,150
+151,尼日尔,Niger,NE,NER,151
+152,诺福克岛（澳）,Norfolk Island (aus.),NF,NFK,152
+153,尼日利亚,Nigeria,NG,NGA,153
+154,尼加拉瓜,Nicaragua,NI,NIC,154
+155,纽埃,Niue,NU,NIU,155
+156,荷兰,Netherlands,NL,NLD,156
+157,挪威,Norway,NO,NOR,157
+158,尼泊尔,Nepal,NP,NPL,158
+159,瑙鲁,Nauru,NR,NRU,159
+160,新西兰,New Zealand,NZ,NZL,160
+161,阿曼,Oman,OM,OMN,161
+162,巴基斯坦,Pakistan,PK,PAK,162
+163,巴拿马,Panama,PA,PAN,163
+164,皮特凯恩,Pitcairn,PN,PCN,164
+165,秘鲁,Peru,PE,PER,165
+166,菲律宾,Philippines,PH,PHL,166
+167,帕劳,Palau,PW,PLW,167
+168,巴布亚新几内亚,Papua New Guinea,PG,PNG,168
+169,波兰,Poland,PL,POL,169
+170,波多黎各,Puerto Rico,PR,PRI,170
+171,朝鲜,Democratic People's Republic of Korea,KP,PRK,171
+172,葡萄牙,Portugal,PT,PRT,172
+173,巴拉圭,Paraguay,PY,PRY,173
+174,法属玻利尼西亚,French Polynesia,PF,PYF,174
+175,卡塔尔,Qatar,QA,QAT,175
+176,留尼汪,Reunion,RE,REU,176
+177,罗马尼亚,Romania,RO,ROM,177
+178,俄罗斯联邦,Russian Federation,RU,RUS,178
+179,卢旺达,Rwanda,RW,RWA,179
+180,沙特阿拉伯,Saudi Arabia,SA,SAU,180
+181,苏丹,Sudan,SD,SDN,181
+182,塞内加尔,Senegal,SN,SEN,182
+183,爱德华王子岛,Prince Edward Island,None,SF,183
+184,新加坡,Singapore,SG,SGP,184
+185,南乔治亚岛和南桑德韦奇岛,South Georgia and the South Sandwich Islands,GS,SGS,185
+186,圣赫勒拿,Saint Helena,SH,SHN,186
+187,斯瓦尔巴岛和扬马延岛,Svalbard and Jan Mayen,SJ,SJM,187
+188,所罗门群岛,Solomon Islands,SB,SLB,188
+189,塞拉利昂,Sierra Leone,SL,SLE,189
+190,萨尔瓦多,El Salvador,SV,SLV,190
+191,圣马力诺,San Marino,SM,SMR,191
+192,索马里,Somalia,SO,SOM,192
+193,圣皮埃尔和密克隆,Saint Pierre and Miquelon,PM,SPM,193
+194,塞尔维亚,Serbia,RS,SRB,194
+195,南苏丹,South Sudan,SS,SSD,195
+196,圣多美和普林西比,Sao Tome and Principe,ST,STP,196
+197,苏里南,Suriname,SR,SUR,197
+198,斯洛伐克,Slovakia,SK,SVK,198
+199,斯洛文尼亚,Slovenia,SI,SVN,199
+200,瑞典,Sweden,SE,SWE,200
+201,斯威士兰,Swaziland,SZ,SWZ,201
+202,塞舌尔,Seychelles,SC,SYC,202
+203,叙利亚,Syria,SY,SYR,203
+204,特克斯和凯科斯群岛,Turks and Caicos Islands,TC,TCA,204
+205,乍得,Chad,TD,TCD,205
+206,多哥,Togo,TG,TGO,206
+207,泰国,Thailand,TH,THA,207
+208,塔吉克斯坦,Tajikistan,TJ,TJK,208
+209,托克劳,Tokelau,TK,TKL,209
+210,土库曼斯坦,Turkmenistan,TM,TKM,210
+211,东帝汶,East Timor,TP,TMP,211
+212,汤加,Tonga,TO,TON,212
+213,特立尼达和多巴哥,Trinidad and Tobago,TT,TTO,213
+214,突尼斯,Tunisia,TN,TUN,214
+215,土耳其,Turkey,TR,TUR,215
+216,图瓦卢,Tuvalu,TV,TUV,216
+217,坦桑尼亚,Tanzania,TZ,TZA,217
+218,乌干达,Uganda,UG,UGA,218
+219,乌克兰,Ukraine,UA,UKR,219
+220,乌拉圭,Uruguay,UY,URY,220
+221,美国,United States,US,USA,221
+222,乌兹别克斯坦,Uzbekistan,UZ,UZB,222
+223,梵蒂冈,Vatican city,VA,VAT,223
+224,圣文森特和格林纳丁斯,Saint Vincent and the Grenadines,VC,VCT,224
+225,委内瑞拉,Venezuela,VE,VEN,225
+226,英属维尔京群岛,Virgin Islands（u.k.）,VG,VGB,226
+227,美属维尔京群岛,"Virgin Islands,u.s.",VI,VIR,227
+228,越南,Vietnam,VN,VNM,228
+229,瓦努阿图,Vanuatu,VU,VUT,229
+230,瓦利斯和富图纳,Wallis and Futuna,WF,WLF,230
+231,萨摩亚,Samoa,WS,WSM,231
+232,也门,Yemen,YE,YEM,232
+233,南非,South Africa,ZA,ZAF,233
+234,赞比亚,Zambia,ZM,ZMB,234
+235,津巴布韦,Zimbabwe,ZW,ZWE,235
