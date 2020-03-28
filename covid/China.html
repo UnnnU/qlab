@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <script type="text/javascript" src="js/tool/jquery.min.js"></script>
+    <script type="text/javascript" src="js/tool/echarts.js"></script>
+    <script src='js/tool/mapbox-gl-dev.js'></script>
+    <script type="text/javascript" src="js/tool/echarts-all-3.js"></script>
+    <script type="text/javascript" src="js/tool/EchartsLayer.js"></script>
+  <link rel="shortcut icon" href="./favicon1.ico"/>
+  <link rel="stylesheet" href="../layui/css/layui.css">
+  <script src="../layui/layui.js"></script>
+  <link rel="shortcut icon" href="../favicon1.ico"/>
+    <link rel="stylesheet" href="css/style.css" />
+  <style>
+  #container{
+      position:fixed;
+      width: 100%;
+      height: 85%;
+      top:70px;
+  }
+  #showContent{
+      height: 70px; 
+      width:200px;
+      background: rgba(214, 214, 214, 0.4);
+      position: fixed;
+      top: 45px;
+      left: 30px;
+      border-radius: 5px;
+      margin-top: 50px;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+  } 
+  /* #showLink{
+      height: 20px; 
+      width:200px;
+      background: rgba(214, 214, 214, 0.4);
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      border-radius: 5px;
+  }  */
+  #infoshow{
+    width: 200px;
+    height: 300px;
+    background:rgba(214, 214, 214, 0.5);
+    position: fixed;
+    right: 45px;
+    top: 20px;
+    border-radius: 5px;
+    /* font-size: 20px; */
+    text-align: center;
+  }
+  /* #list{
+    margin: 0,20,0,0,'solid';
+
+  } */
+  #areatime{
+    font-size: 12px;
+    color: snow;
+    position: relative;
+    top:10px;
+    left: 0px;
+  }
+  #deathname{
+    font-size: 20px;
+    color: snow;
+    columns: #ffffff;
+    position: relative;
+    top:30px;
+    left: 0px;
+    margin:auto;
+    box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.6);
+  }
+  #recoveryname{
+    font-size: 20px;
+    color:snow;
+    position: relative;
+    top:60px;
+    left: 0px;
+    margin:auto;
+    box-shadow: 1px 0px 1px 1px rgba(0,0,0,0.6);
+  }
+  #deathnumber{
+    font-size: 50px;
+    color:rgba(233, 79, 79, 0.7);
+    columns: #000000;
+    position: relative;
+    top:45px;
+    right: 0px;
+    margin:auto;
+  }
+  #recoverynumber{
+    font-size: 50px;
+    color: rgba(218, 233, 79, 0.7);
+    columns: #000000;
+    position: relative;
+    top:75px;
+    right: 0px;
+    margin:auto;
+  }
+  /* #showlink{
+    height: 70px; 
+    width:200px;
+    background: rgba(214, 214, 214, 0.4);
+  } */
+
+  .layui-nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+  }
+
+  #contentfont-style{
+    position: relative;
+    top:22px;
+    text-overflow: ellipsis;
+    font-weight: 1.5;
+  }
+
+  
+</style>
+</head>
+<body >
+<body >
+<ul class="layui-nav">
+  <li class="layui-nav-item"><a href="../index.html">The COVID-19 plateform</a></li>
+  <li class="layui-nav-item"><a href="../covid/GlobalMap.html">Global cases and movement risk</a></li>
+  <li class="layui-nav-item layui-this"><a href="">Mainland of China cases and movement risk</a></li>
+</ul>
+
+<script>
+  //注意：导航 依赖 element 模块，否则无法进行功能性操作
+  layui.use('element', function(){
+    var element = layui.element;
+  });
+</script>
+
+<div id="container" ></div>
+<div id="infoshow" style="margin-top: 60px">
+    <ul id='list'>
+      <li id='areatime'></li>
+      <li id='deathname'></li>
+      <li id='deathnumber'></li>
+      <li id='recoveryname'></li>
+      <li id='recoverynumber'></li>
+    </ul>
+  </div>
+<!--  &lt;!&ndash; 显示街道信息 &ndash;&gt;-->
+<!--  <div id="showLink">-->
+<!--      <a href="GlobalMap.html">Global Migration Risk</a>-->
+<!--  </div>-->
+  
+  <div id="showContent" >
+      <h4 id='contentfont-style'>Epidemic in China</h4>
+  </div>
+  <!-- <div id="main" style="width: 1100px;height:400px;"></div> -->
+  <div id="barChart"></div>
+
+
+  <script type="text/javascript" src="js/china.js"></script>
+  <script type="text/javascript" src="js/patientNum.js">
+  </script>
+  <script type="text/javascript" src="js/tmpFlood.js"></script>
+  
+  <!--<script type="text/javascript" src="js/main1.js"></script> -->
+  <script type="text/javascript" src="js/tmpMain.js"></script>
+  
+  <script>
+    document.getElementById('areatime').innerHTML = 'Mainland China' +'<br>'+String(time[time.length - 1]);
+    document.getElementById('deathname').innerHTML = 'Total deaths';
+    document.getElementById('deathnumber').innerHTML = '3,130';
+    document.getElementById('recoveryname').innerHTML = 'Total recovery';
+    document.getElementById('recoverynumber').innerHTML = '70,562';
+  </script>
+
+</body>
+</html>
